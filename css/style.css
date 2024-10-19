@@ -1,0 +1,135 @@
+ body 
+{
+	margin: 0;
+	overflow: hidden;
+}
+
+#left_area
+{
+	position 	: absolute;
+	left 		: 30px;
+	top 		: 20px;
+	width  		: 180px;
+	padding 	: 10px;
+	border 		: 6px solid #aaa;
+	border-style: double;
+	box-shadow 	: 0px 0px 10px gray;
+}
+
+.title
+{
+	font-family : arial;
+	font-size 	: 12px;
+	font-weight : bold;
+	padding 	: 0px;
+	margin 		: 0px;
+	margin-top 	: 10px;
+}
+
+#color_box
+{
+	list-style 	: none;
+	height 		: 90px;
+	padding 	: 0px;
+	padding-left: 3px;
+	padding-top : 5px;
+	border-radius: 5px;
+	box-shadow 	: 0px 0px 5px #999;
+}
+
+#color_box li
+{
+	float 	: left;
+	cursor 	: pointer;
+	width 	: 34px;
+	height 	: 34px;
+	margin 	: 3px;
+	border 	: 1px solid gray;
+}
+
+#color_box li.sel
+{
+	border 	: 3px solid white;
+	box-shadow: 0px 0px 5px black;
+	width 	: 30px;
+	height 	: 30px;
+	background : url(../img/btn_check.png) no-repeat;
+	background-position: center center;
+
+}
+
+#file_upload
+{
+	width 		: 180px;
+	margin-top 	: 10px;
+}
+
+dl
+{
+	margin-top 	: 5px;
+}
+
+dd
+{
+	margin 		: 0px;
+	padding 	: 0px;
+	font-size 	: 11px;
+	font-family : arial;
+	color 		: gray;
+}
+
+table
+{
+	width 		: 100%;
+	margin-top 	: 10px;
+}
+
+table td
+{
+	font-family : arial;
+	font-size 	: 10px;
+}
+
+table input[type="text"], table input[type="number"], table input[type="date"]
+{
+	width 		: 115px;
+}
+
+table input[type="submit"]
+{
+	margin-top 	: 10px;
+}
+
+#WebGL-output
+{
+	margin-left : 250px;
+	width 		: calc(100% - 250px);
+}
+
+#control_area
+{
+	position 	: absolute;
+	width 		: 180px;
+	height 		: 50px;
+	list-style 	: none;
+	bottom 		: 50px;
+	left 		: calc(50%);
+}
+
+#control_area li
+{
+	float 		: left;
+	padding 	: 5px;
+	width 		: 32px;
+	height 		: 32px;
+	margin 		: 5px;
+	cursor 		: pointer;
+	/*background-color: white;
+	box-shadow 	: 0px 0px 10px gray;*/
+}
+
+#control_area img
+{
+	width 		: 32px;
+	height 		: 32px;
+}
